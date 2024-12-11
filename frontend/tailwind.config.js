@@ -6,4 +6,13 @@ export default {
   },
   plugins: [],
 }
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        lightgray: '#d3d3d3',
+      },
+    },
+  },
+}
 
