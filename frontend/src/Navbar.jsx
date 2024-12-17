@@ -16,10 +16,10 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink 
-              to="/product" 
+              to="/articles" 
               className={({ isActive }) => isActive ? 'font-bold' : 'text-black'}
             >
-              Product
+              Tout
             </NavLink>
           </li>
           <li>
@@ -30,18 +30,18 @@ const Navbar = () => {
               Wishlist
             </NavLink>
           </li>
-          <li>
+        </ul>
+        <img src="/images/logo2.png" alt="Logo" className="w-30 h-20 ml-40 " />
+        <div className="flex items-center">
+        </div>
+        <ul>
             <NavLink 
               to="/login" 
               className={({ isActive }) => isActive ? 'font-bold' : 'text-black'}
             >
-              Login
+              Mon espace
             </NavLink>
-          </li>
-        </ul>
-        <img src="/images/logo2.png" alt="Logo" className="w-30 h-20 mr-40" />
-        <div className="flex items-center">
-        </div>
+          </ul>
       </div>
     </nav>
   );
