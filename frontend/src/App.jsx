@@ -5,6 +5,10 @@ import Home from "./Home";
 import Login from "./Login";
 import Navbar from "./Navbar";
 import Articles from './Articles';
+import Wishlist from './Wishlist';
+
+
+
 
 const App = () => {
   return (
@@ -14,6 +18,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/articles" element={<Articles />} />
+        <Route path="/wishlist" element={<Wishlist />} />
       </Routes>
     </Router>
   );
