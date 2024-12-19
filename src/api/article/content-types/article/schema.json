@@ -40,6 +40,12 @@
     },
     "price": {
       "type": "decimal"
+    },
+    "wishlists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::wishlist.wishlist",
+      "mappedBy": "articles"
     }
   }
 }
